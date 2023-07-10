@@ -83,8 +83,8 @@ const Experience = () => {
   }, []);
 
   return (
-    <div className="horizontal-container">
-      <div className="horizontal-wrapper mb-10">
+    <div className="horizontal-container overflow-x-scroll">
+      <div className="horizontal-wrapper mb-10 overflow-x-scroll">
         <div className="horizontal-scroller">
           <div className="row">
             <div className="item relative p-5 border-2 border-white rounded-2xl box-border text-5xl flex flex-col justify-center items-center h-50 text-white font-normal w-50 text-shadow-md filled max-sm:w-96">

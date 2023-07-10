@@ -693,10 +693,10 @@ nav .active-section .rect{
   .zoom-circle {
     height: 50vw;
     width: 50vw;
-    top: 50%;
+    top: 100%;
   }
   .zoom-content {
-    top: 50%;
+    top: 100%;
     font-size: 6vw;
   }
   .zoom {
@@ -733,6 +733,9 @@ nav .active-section .rect{
     line-height:10px;
     transition: .5s;
     padding-right: 10px;
+  }
+  .horizontal-container {
+    overflow-x: scroll;
   }
 }
 

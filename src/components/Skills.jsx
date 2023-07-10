@@ -42,7 +42,7 @@ const Skills = () => {
           ))}
         </motion.ul>
       </AnimatePresence>
-      <div className='flex justify-center items-center mt-10 cursor-pointer'>
+      <div className='flex justify-center items-center mb-20 cursor-pointer'>
         <a
           className='text-[#999999] font-bold text-[24px] flex items-center cursor-pointer'
           href='https://drive.google.com/file/d/1bAFyrRSgR91fiZfq4x4KIAy6xFfXGrvd/view?usp=sharing'

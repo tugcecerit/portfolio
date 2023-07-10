@@ -40,10 +40,10 @@ const Contact = () => {
   };
 
   return (
-    <div className={`flex justify-center items-center h-screen`}>
+    <div className={`flex justify-center items-center h-screen pt-60 mb-10`}>
       <motion.div
         style={{ scaleX: scrollYProgress }} 
-        className="glass-effect p-20 rounded-2xl max-sm:p-10"
+        className="glass-effect p-20 rounded-2xl max-sm:p-10 max-sm:mb-20"
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1 }}
         animate={{ opacity: 1, y: 0 }}
