@@ -710,6 +710,9 @@ nav .active-section .rect{
   .custom-cursor {
     display: none;
   }
+  .horizontal-wrapper {
+    overflow-x: scroll;
+  }
 }
 
 @media (max-width: 800px) {
@@ -733,9 +736,6 @@ nav .active-section .rect{
     line-height:10px;
     transition: .5s;
     padding-right: 10px;
-  }
-  .horizontal-container {
-    overflow-x: scroll;
   }
 }
 
