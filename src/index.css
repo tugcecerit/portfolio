@@ -161,15 +161,18 @@ h1 {
 
 .filled {
   backdrop-filter: blur(8px);
-  background: #ffaa00;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
-  text-shadow: 2px 2px 2px black;
+  background: #141414;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.08), 3px 3px 3px 3px rgba(255, 255, 255, 0.08);
+}
+
+.company {
+  text-shadow: 3px 3px 3px #ffaa00;
 }
 
 .glass-effect {
   backdrop-filter: blur(50px);
-  background: grey;
+  background: rgb(53, 53, 53);
   border: 1px solid rgba(0, 0, 0, 0.3);
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.7), 0 1px 3px #ffaa00;
 }
@@ -750,4 +753,8 @@ nav .active-section .rect{
   67% {
     border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
   }
+}
+
+.blur-background {
+display: none;
 }

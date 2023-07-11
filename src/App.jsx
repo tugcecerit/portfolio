@@ -6,11 +6,12 @@ import Projects from './components/Projects.jsx'
 import CustomCursor from './components/CustomCursor.jsx';
 import ZoomAnimation from './components/ZoomAnimation.jsx';
 import Contact from "./components/Contact.jsx";
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Skills from "./components/Skills.jsx";
 import SocialMedia from "./components/SocialMedia.jsx"
 
 const Navigation = ({ navigationRef }) => {
+  const [isSection4Active, setIsSection4Active] = useState(false);
   useEffect(() => {
     if (navigationRef.current) {
       const navigation = navigationRef.current;
@@ -39,6 +40,11 @@ const Navigation = ({ navigationRef }) => {
               sectionTop + sectionHeight - windowHeight / 2 > scrollTop
             ) {
               navigationMatch.classList.add('active-section');
+              if (sectionName === 'section-4') {
+                setIsSection4Active(true);
+              } else {
+                setIsSection4Active(false);
+              }
             } else {
               navigationMatch.classList.remove('active-section');
             }
@@ -68,7 +74,7 @@ const Navigation = ({ navigationRef }) => {
   }, [navigationRef]);
 
   return (
-    <nav ref={navigationRef}>
+    <nav ref={navigationRef} className={isSection4Active ? 'blur-background' : ''}>
       <ul>
         <li>
           <a href="#section-1">
