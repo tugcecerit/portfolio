@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const SocialMedia = (props) => {
   return (
-    <div className="icon-container flex justify-start w-screen fixed px-5 bottom-12 z-10 mix-blend-difference">
+    <div className="icon-container flex justify-start w-20 fixed px-5 bottom-12 z-10 mix-blend-difference">
       <div
         className="w-8"
       >

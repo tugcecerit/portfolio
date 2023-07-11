@@ -64,12 +64,12 @@ const Overview = () => {
         COFFEE-LOVER.
       </div>
       <motion.div
-        className='text-white z-10 w-full pt-20 px-20 max-sm:px-12'
+        className='text-white z-10 w-full pt-20 px-40 max-sm:px-12'
         initial={{ opacity: 0, x: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 2, delay: 2 }}>
       <h3 className='text-5xl max-sm:text-4xl'>Introduction.</h3>
-      <p className='text-2xl max-sm:text-sm pt-5'>  I am a highly skilled software developer with a background in textile engineering and customer-oriented roles. My heart is captivated by the wonders of nature, particularly the vastness of the ocean, which provides me with solace and endless inspiration. In addition to my passion for nature, I find immense joy and satisfaction as a coffee lover, relishing every sip of a perfectly brewed cup. With expertise in JavaScript, Python, and frameworks like React, Node.js, and Flask, I bring confidence and a track record of quickly grasping new concepts to software development projects. Throughout my career, I've demonstrated unwavering determination and a commitment to achieving success.</p>
+      <p className='text-2xl max-sm:text-sm max-sm:pt-5'>  I am a highly skilled software developer with a background in textile engineering and customer-oriented roles. My heart is captivated by the wonders of nature, particularly the vastness of the ocean, which provides me with solace and endless inspiration. In addition to my passion for nature, I find immense joy and satisfaction as a coffee lover, relishing every sip of a perfectly brewed cup. With expertise in JavaScript, Python, and frameworks like React, Node.js, and Flask, I bring confidence and a track record of quickly grasping new concepts to software development projects. Throughout my career, I've demonstrated unwavering determination and a commitment to achieving success.</p>
       </motion.div>
       </div>
   );
