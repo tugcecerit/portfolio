@@ -4,7 +4,7 @@ Welcome to my portfolio! This interactive, visually engaging and nicely animated
 ## Demo
 Check out the live demo: https://tugcecerit.vercel.app/
 
-Features
+## Features
 - Navigation Bar: Navigate seamlessly through the various sections of the portfolio.
 - Hero Section: A captivating introduction with animation to grab attention.
 - About Section: Learn more about me and my background.
